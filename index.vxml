@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml">
+  <form id="greetingForm">
+    <block>
+      <prompt>Welcome to the Simple Greeting System. Please tell me your name.</prompt>
+      <field name="name">
+        <prompt>Please say your name after the beep.</prompt>
+        <filled>
+          <submit next="greet.vxml"/>
+        </filled>
+      </field>
+    </block>
+  </form>
+</vxml>
